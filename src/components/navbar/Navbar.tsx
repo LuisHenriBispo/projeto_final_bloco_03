@@ -18,7 +18,7 @@ function Navbar() {
 
         {/* navegação */}
         <div className="flex gap-4">
-          <Link to="/produtos" className="hover:underline">Produtos</Link>
+          {/* <Link to="/produtos" className="hover:underline">Produtos</Link> */}
           <Link to="/categorias" className="hover:underline">Categoria</Link>
           <Link to="/cadastrarcategoria" className="hover:underline">Cadastrar Categoria</Link>
           <span
