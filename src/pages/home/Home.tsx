@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../../index.css'
+import ListarCategoria from '../../components/categoria/listarcategorias/ListarCategorias'
 
 function Home() {
   return (
@@ -16,9 +17,9 @@ function Home() {
             </p>
 
             <div className="flex gap-4">
-              <Link to="/produtos" className="bg-white text-green-700 px-6 py-2 rounded hover:bg-gray-100 transition">
+              {/* <Link to="/produtos" className="bg-white text-green-700 px-6 py-2 rounded hover:bg-gray-100 transition">
                 Ver Produtos
-              </Link>
+              </Link> */}
               <Link to="/categorias" className="border border-white px-6 py-2 rounded hover:bg-white hover:text-green-700 transition">
                 Ver Categoria
               </Link>
@@ -35,7 +36,7 @@ function Home() {
         </div>
       </div>
 
-      {/* <ListaProdutos /> */}
+      <ListarCategoria />
     </>
   )
 }
