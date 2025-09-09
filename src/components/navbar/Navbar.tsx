@@ -3,7 +3,7 @@ import { FirstAid } from 'phosphor-react'
 
 function Navbar() {
   function logout() {
-    alert("Usuário deslogado")
+    alert("Usuário deslogado com sucesso!")
   }
 
   return (
