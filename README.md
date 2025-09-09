@@ -1,1 +1,2 @@
-# farmacia_react
+# Projeto Farmacia em react
+<!-- # React + TypeScript + Vite -->
